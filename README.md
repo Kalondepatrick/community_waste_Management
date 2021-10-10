@@ -1,3 +1,5 @@
+A submission to Mzuzu E-Hub Hackathon
+
 # Problem Statement
 
 The Malawi State of Environment report (2010) indicates that objective decision making in environmental management is difficult because of lack of accurate and updated data on the state of the environment in Malawi. One major explanation for dearth in data resource is lack of monitoring systems and institutions to monitor implementation of environmental activities. To address the problem, we are developing a monitoring system that will use data from multiple sources. The project is inspired by a community project from Lilongwe where a voluntary youth group – Youth for Environmental Development (YED) – utilized citizen science to monitor waste disposal in a small community of approximately 310 households.  
