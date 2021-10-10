@@ -10,7 +10,12 @@ In Malawi, the issue of waste management has attracted political support.  The P
 
 # Data Resources
 
-The dashboard uses multiple data sources. We are intergrating data on human population from Malawi National Statistical Office, waste disposal from open Litter Maps and data from an ODK survey that we created for monitoring Mudi river. We also intend to integrate data from social media (Based on previous cleanup campaigns). 
+The dashboard uses multiple data sources. We are intergrating data from the following sources:
+- Human population from Malawi National Statistical Office
+- Waste disposal from open Litter Maps and data from an ODK survey that we created for monitoring Mudi river.
+- Admistration boundaries from Malawi Spatial Data Platform (MASDAP) 
+
+We also intend to integrate data from social media (Based on previous cleanup campaigns). 
 
 # Key insights
 
