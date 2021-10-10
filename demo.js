@@ -28,15 +28,9 @@ require([
          ********************/
 
     // Waste Collection 
-      const popupWasteCollection ={
-          "title":"WasteCollection",
-          "content": "<b>Picked Up:</b> {picked_up}<br>"
-      } 
       
       const WasteCollection = new FeatureLayer({
-      url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/Waste_collection_service_coverage_by_private_sector/FeatureServer/0",
-      outFields: ["picked_up"],
-      popupTemplate: popupWasteCollection
+      url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/Waste_collection_service_coverage_by_private_sector/FeatureServer/0"
         });
 
   map.add(WasteCollection, 0);
