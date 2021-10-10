@@ -19,4 +19,4 @@ We also intend to integrate data from social media (Based on previous cleanup ca
 
 # Key insights
 
-We are not yet there but in the future we will be interested to understand the influence of number of homes in close proximity of homes to dumpsites on quantities of waste. We would also like to study other variables that that might be statistically important
+We are not yet there but in the future we will be interested to understand the influence of number of homes in close proximity of homes to dumpsites on quantities of waste. We would also like to study other variables that that might be statistically important. 
