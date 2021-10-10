@@ -1,9 +1,13 @@
-require([
-     "esri/config",
-      "esri/Map",
-      "esri/views/MapView"
-    ], function (esriConfig,Map, MapView) {
-
+require(["esri/config", 
+         "esri/Map", 
+         "esri/views/MapView", 
+         "esri/layers/FeatureLayer", 
+         "esri/widgets/Legend", 
+         "esri/Color", 
+         "esri/renderers/UniqueValueRenderer", 
+         "esri/widgets/TimeSlider"
+        ], function(esriConfig, Map, MapView, FeatureLayer, Legend, Color, UniqueValueRenderer, TimeSlider) {
+      
     
       esriConfig.apiKey = MY_API_KEY; 
     
