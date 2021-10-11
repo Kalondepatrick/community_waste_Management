@@ -31,7 +31,19 @@ require(["esri/config",
          * Add feature layer
          ********************/
 
-    // Waste Collection 
+	// Waste Collection 
+    var popupDumpsites ={
+        "title":"Dumpsites",
+        "content": "<b>Phone:</b> {phone}<br><b>Picked up:</b> {picked_up}"
+      }  
+      
+    var Dumpsites = new FeatureLayer({
+        url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/dumpsite/FeatureServer/0",
+        outFields: ["phone","picked_up"],
+        popupTemplate: popupDumpsites,
+        });
+	
+	// Waste Collection 
       
       const WasteCollection = new FeatureLayer({
       url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/Waste_collection_service_coverage_by_private_sector/FeatureServer/0"
