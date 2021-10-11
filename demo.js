@@ -36,6 +36,24 @@ require(["esri/config",
       const WasteCollection = new FeatureLayer({
       url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/Waste_collection_service_coverage_by_private_sector/FeatureServer/0"
         });
+         
+         /********************
+         * Add Map Legend 
+         ********************/
+        
+    var legend = new Legend({
+        view: view,
+        style: "classic",
+        layout: "auto"
+        });	
+
+       view.ui.add(legend, "bottom-right");
+         
+         /********************
+         * Add all Maps 
+         ********************/
+         
      map.add(WasteCollection, 0);
 
     });
+
