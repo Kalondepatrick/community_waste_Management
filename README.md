@@ -6,7 +6,9 @@ The Malawi State of Environment report (2010) indicates that objective decision 
 
 The maps from Lilongwe City highlighted that waste is commonly disposed in rivers and along roadsides. Such maps offer opportunities for programming of interventions and programs that can address the problem. We have deliberately made this project open so as to get as much support from like minds as much as we can.
 
-<img align = "center" src="https://github.com/Kalondepatrick/community_waste_Management/blob/main/image.jpeg" height="500">
+<p align="center">
+  <img height="500" src="https://github.com/Kalondepatrick/community_waste_Management/blob/main/image.jpeg">
+</p>
 
 # Context
 
