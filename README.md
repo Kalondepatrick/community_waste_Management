@@ -30,11 +30,14 @@ We also intend to integrate data from social media (Based on previous cleanup ca
 
 # How it works
 
-The dashboard takes data on waste disposal from OLM and ODK surveys, it is prepared and stored on cloud using ArcGIS online. ArcGIS online follow a robust and effective security framework. The data is pulled from ArcGIS online to authorized outlets (in this case our github page). Every friday, all contributions on OLM will be synced into our dashboard together with contributions from authorized ODK surveys. This will provide near-real time information about waste management in the city interms of dumpsites and waste collection. In the future, we will also include capabilities to collect data using social media (Twitter and Facebook). You can check out our prototype here: https://kalondepatrick.github.io/community_waste_Management/
-
+The dashboard takes data on waste disposal from OLM and ODK surveys, it is prepared and stored on cloud using ArcGIS online. ArcGIS online follow a robust and effective security framework. The data is pulled from ArcGIS online to authorized outlets (in this case our github page). Every friday, all contributions on OLM will be synced into our dashboard together with contributions from authorized ODK surveys. This will provide near-real time information about waste management in the city interms of dumpsites and waste collection. In the future, we will also include capabilities to collect data using social media (Twitter and Facebook). 
 
 # Key insights and next step
 
 Disclaimer. Our solution should not be assumed to be a perfect solution to addressing the problem of waste. Addressing the problem of waste in cities will require far beyond what the current solution is offering - strenghening monitoring of waste management. To address the problem of waste, there will be a need for developing effective waste collection system, investing in waste handling (including recycling) and behavioral changes among the general population. We are interested to explore opportunities through which our proposed monitoring system can accelerate progress in all such aspcects of waste management. We know for sure that our system is key towards enhancing adaptive management in such processes. 
 
 Our next step will involve, developing an understanding of  the influence of number of homes in close proximity of homes to dumpsites on quantities of waste. We would also like to study other variables that that might be statistically important. We are thinking of establishing partenerships with academic and research institutions to strenghten this.
+
+You can check out our prototype here: https://kalondepatrick.github.io/community_waste_Management/
+
+Feedback and comments can be sent to: operations.yed@yahoo.com 
