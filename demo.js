@@ -12,7 +12,7 @@ require(["esri/config",
       esriConfig.apiKey = MY_API_KEY; 
     
       const map = new Map({
-        basemap: "topo-vector" // Basemap layer
+        basemap: "satellite" // Basemap layer
       });
     
     
