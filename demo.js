@@ -36,7 +36,10 @@ require(["esri/config",
       const WasteCollection = new FeatureLayer({
       url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/Waste_collection_service_coverage_by_private_sector/FeatureServer/0"
         });
-         
+
+         //Changing the layer name
+
+	tree.title = "Homes under Private Waste Collection";
          
      // Malawi Districts
    
@@ -49,17 +52,8 @@ require(["esri/config",
         url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/Malawi_District_Boundaries/FeatureServer",
         outFields: ["NAME_1"],
         popupTemplate: popupDistricts,
-        });
-
-        
-         // Adding Districts to the map scene 
-                
-        map.add(District, 0);
-         
-         
-         
-         
-         
+        }); 
+          
          /********************
          * Add Map Legend 
          ********************/
@@ -77,6 +71,7 @@ require(["esri/config",
          ********************/
          
      map.add(WasteCollection, 0);
+     map.add(District, 0);
 
     });
 
