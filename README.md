@@ -22,7 +22,7 @@ The current project presents a prototype of a dashboard that will help different
 
 The dashboard uses multiple data sources. We are intergrating data from the following sources:
 - Human population from Malawi National Statistical Office
-- Waste disposal from open Litter Maps and data from an ODK survey that we created for monitoring Mudi river.
+- Waste disposal from open Litter Maps (OLM) and data from an ODK survey that we created for monitoring Mudi river.
 - Admistration boundaries from Malawi Spatial Data Platform (MASDAP) 
 - Private Waste Collection (From Youth for Environmental Development)
 
@@ -30,7 +30,8 @@ We also intend to integrate data from social media (Based on previous cleanup ca
 
 # How it works
 
-The dashboard takes data from ---
+The dashboard takes data on waste disposal from OLM and ODK surveys, it is prepared and stored on cloud using ArcGIS online. ArcGIS online follow a robust and effective security framework. The data is pulled from ArcGIS online to authorized outlets (in this case our github page). Every friday, all contributions on OLM will be synced into our dashboard together with contributions from authorized ODK surveys. This will provide near-real time information about waste management in the city interms of dumpsites and waste collection. In the future, we will also include capabilities to collect data using social media (Twitter and Facebook). You can check out our prototype here: https://kalondepatrick.github.io/community_waste_Management/
+
 
 # Key insights and next step
 
