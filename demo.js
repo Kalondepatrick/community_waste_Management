@@ -101,6 +101,7 @@ require(["esri/config",
          
 	map.add(Dumpsites, 0);
 	map.add(WasteCollection, 0);
+	map.add(Locations, 0);
     	map.add(District, 0);
 
     });
