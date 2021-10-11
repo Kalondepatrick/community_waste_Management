@@ -37,6 +37,29 @@ require(["esri/config",
       url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/Waste_collection_service_coverage_by_private_sector/FeatureServer/0"
         });
          
+         
+     // Malawi Districts
+   
+    var popupDistricts ={
+        "title":"Districts",
+        "content": "<b>NAME_1:</b> {Name}"
+      }  
+      
+    var District = new FeatureLayer({
+        url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/Malawi_District_Boundaries/FeatureServer",
+        outFields: ["NAME_1"],
+        popupTemplate: popupDistricts,
+        });
+
+        
+         // Adding Districts to the map scene 
+                
+        map.add(District, 0);
+         
+         
+         
+         
+         
          /********************
          * Add Map Legend 
          ********************/
