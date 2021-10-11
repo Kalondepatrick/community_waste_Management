@@ -82,8 +82,9 @@ require(["esri/config",
          * Add all Maps 
          ********************/
          
-     map.add(WasteCollection, 0);
-     map.add(District, 0);
+	map.add(Dumpsites, 0);
+	map.add(WasteCollection, 0);
+    	map.add(District, 0);
 
     });
 
