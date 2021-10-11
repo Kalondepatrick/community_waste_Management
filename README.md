@@ -26,7 +26,7 @@ The dashboard uses multiple data sources. We are intergrating data from the foll
 
 We also intend to integrate data from social media (Based on previous cleanup campaigns). 
 
-# Key insights
+# Key insights and next step
 
 Disclaimer. Our solution should not be assumed to be a perfect solution to addressing the problem of waste. Addressing the problem of waste in cities will require far beyond what the current solution is offering - strenghening monitoring of waste management. To address the problem of waste, there will be a need for developing effective waste collection system, investing in waste handling (including recycling) and behavioral changes among the general population. We are interested to explore opportunities through which our proposed monitoring system can accelerate progress in all such aspcects of waste management. We know for sure that our system is key towards enhancing adaptive management in such processes. 
 
