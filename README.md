@@ -4,7 +4,10 @@ A submission to Mzuzu E-Hub Hackathon
 
 The Malawi State of Environment report (2010) indicates that objective decision making in environmental management is difficult because of lack of accurate and updated data on the state of the environment in Malawi. One major explanation for dearth in data resource is lack of monitoring systems and institutions to monitor implementation of environmental activities. To address the problem, we are developing a monitoring system that will use data from multiple sources. The project is inspired by a community project from Lilongwe where a voluntary youth group – Youth for Environmental Development (YED) – utilized citizen science to monitor waste disposal in a small community of approximately 310 households.  
 
-The maps from Lilongwe City highlighted that waste is commonly disposed in rivers and along roadsides. Such maps offer opportunities for programming of interventions and programs that can address the problem. We have deliberately made this project open so as to get as much support from like minds as much as we can. 
+The maps from Lilongwe City highlighted that waste is commonly disposed in rivers and along roadsides. Such maps offer opportunities for programming of interventions and programs that can address the problem. We have deliberately made this project open so as to get as much support from like minds as much as we can.
+
+![Maxent Output](https://github.com/Kalondepatrick/Maxent/blob/8e585b605f4db09a4e371e94873e08ec94247b39/StudyAreaGEC.png
+)
 
 # Context
 
