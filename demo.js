@@ -52,7 +52,24 @@ require(["esri/config",
          //Changing the layer name
 
 	  WasteCollection.title = "Homes under Private Waste Collection";
-         
+       
+	// Malawi sub-admistrative boundaries (TA's)
+   
+    var popupTA ={
+        "title":"Locations(TA's)",
+        "content": "<b>ADM3_EN:</b> {Name}"
+      }  
+      
+    var Locations = new FeatureLayer({
+        url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/Malawi_TAs/FeatureServer",
+        outFields: ["ADM3_EN"],
+        popupTemplate: popupTA,
+        });
+	
+	//Changing the layer name
+
+	  Locations.title = "Locations(Areas or TA's)";
+	
      // Malawi Districts
    
     var popupDistricts ={
