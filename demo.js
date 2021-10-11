@@ -39,7 +39,7 @@ require(["esri/config",
 
          //Changing the layer name
 
-	tree.title = "Homes under Private Waste Collection";
+	tree.WasteCollection = "Homes under Private Waste Collection";
          
      // Malawi Districts
    
