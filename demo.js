@@ -52,7 +52,17 @@ require(["esri/config",
          //Changing the layer name
 
 	  WasteCollection.title = "Homes under Private Waste Collection";
-       
+	       
+	// Waste Cleanups 
+      
+      const WasteCleanups = new FeatureLayer({
+      url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/cleanup/FeatureServer"
+        });
+
+         //Changing the layer name
+
+	  WasteCleanups.title = "Waste Clean Up Exercises";	       
+	       
 	// Malawi sub-admistrative boundaries (TA's)
    
     var popupTA ={
@@ -101,6 +111,7 @@ require(["esri/config",
          
 	map.add(Dumpsites, 0);
 	map.add(WasteCollection, 0);
+	map.add(WasteCleanups, 0);
 	map.add(Locations, 0);
     	map.add(District, 0);
 
