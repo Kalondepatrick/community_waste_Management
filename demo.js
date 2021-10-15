@@ -31,7 +31,7 @@ require(["esri/config",
          * Add feature layer
          ********************/
 
-	// Waste Collection 
+	// Waste Dumpsites 
     var popupDumpsites ={
         "title":"Dumpsites",
         "content": "<b>Phone:</b> {phone}<br><b>Picked up:</b> {picked_up}"
