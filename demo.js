@@ -38,7 +38,7 @@ require(["esri/config",
       }  
       
     var Dumpsites = new FeatureLayer({
-        url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/communitydump/FeatureServer/0",
+        url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/dumpsitecommunty/FeatureServer",
         outFields: ["phone","picked_up"],
         popupTemplate: popupDumpsites,
         });
