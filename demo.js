@@ -67,7 +67,7 @@ require(["esri/config",
    
     var popupTA ={
         "title":"Locations(TA's)",
-        "content": "<b>ADM3_EN:</b> {Name}"
+        "content": "<b>ADM3_EN:</b> {ADM3_EN}"
       }  
       
     var Locations = new FeatureLayer({
