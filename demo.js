@@ -5,8 +5,8 @@ require(["esri/config",
          "esri/widgets/Legend", 
          "esri/Color", 
          "esri/renderers/UniqueValueRenderer", 
-         "esri/widgets/TimeSlider"
-        ], function(esriConfig, Map, MapView, FeatureLayer, Legend, Color, UniqueValueRenderer, TimeSlider) {
+         "esri/widgets/Search"
+        ], function(esriConfig, Map, MapView, FeatureLayer, Legend, Color, UniqueValueRenderer, Search) {
       
     
       esriConfig.apiKey = MY_API_KEY; 
@@ -104,6 +104,20 @@ require(["esri/config",
         });	
 
        view.ui.add(legend, "bottom-right");
+	
+	 /********************
+         * Add Search Widget 
+         ********************/
+	
+	const searchWidget = new Search({
+		view: view
+	});
+	// Adds the search widget below other elements in
+	// the top left corner of the view
+	view.ui.add(searchWidget, {
+		position: "top-left",
+		index: 2
+	});
          
          /********************
          * Add all Maps 
