@@ -112,10 +112,8 @@ require(["esri/config",
 	const searchWidget = new Search({
 		view: view
 	});
-	// Adds the search widget below other elements in
-	// the top left corner of the view
 	view.ui.add(searchWidget, {
-		position: "top-left",
+		position: "top-right",
 		index: 2
 	});
          
