@@ -46,4 +46,6 @@ Feedback and comments can be sent to: operations.yed@yahoo.com
 
 Government of Malawi State of environment and outlook report 2010, Environmental Affairs Department, Lilongwe (2010)
 
+Lynch, Seán. "OpenLitterMap. com–open data on plastic pollution with blockchain rewards (littercoin)." Open Geospatial Data, Software and Standards 3, no. 1 (2018): 1-10.
+
 Medina, Martin (2010) : Solid wastes, poverty and the environment in developing country 	cities: 	Challenges and opportunities, WIDER Working Paper, No. 2010/23, ISBN 978-	92-9230-258-0, 	The United Nations University World Institute for 	Development Economics Research (UNU-	WIDER), Helsinki
