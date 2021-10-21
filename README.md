@@ -41,3 +41,7 @@ Our next step will involve, integrating emerging sources of data. Such data incl
 You can check out our prototype here: https://kalondepatrick.github.io/community_waste_Management/
 
 Feedback and comments can be sent to: operations.yed@yahoo.com 
+
+# Scholarly work cited
+
+Medina, Martin (2010) : Solid wastes, poverty and the environment in developing country 	cities: 	Challenges and opportunities, WIDER Working Paper, No. 2010/23, ISBN 978-	92-9230-258-0, 	The United Nations University World Institute for 	Development Economics Research (UNU-	WIDER), Helsinki
