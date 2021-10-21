@@ -44,4 +44,6 @@ Feedback and comments can be sent to: operations.yed@yahoo.com
 
 # Scholarly work cited
 
+Government of Malawi State of environment and outlook report 2010, Environmental Affairs Department, Lilongwe (2010)
+
 Medina, Martin (2010) : Solid wastes, poverty and the environment in developing country 	cities: 	Challenges and opportunities, WIDER Working Paper, No. 2010/23, ISBN 978-	92-9230-258-0, 	The United Nations University World Institute for 	Development Economics Research (UNU-	WIDER), Helsinki
