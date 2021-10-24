@@ -130,7 +130,7 @@ require(["esri/config",
           content: infoDiv,
           expanded: true
         });
-        view.ui.add(infoDivExpand, "top-right");
+        view.ui.add(infoDivExpand, "bottom-right");
          
          /********************
          * Add all Maps 
