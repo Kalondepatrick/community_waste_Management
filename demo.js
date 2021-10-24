@@ -3,10 +3,11 @@ require(["esri/config",
          "esri/views/MapView", 
          "esri/layers/FeatureLayer", 
          "esri/widgets/Legend", 
-         "esri/Color", 
+         "esri/Color",
+	 "esri/widgets/Expand",
          "esri/renderers/UniqueValueRenderer", 
          "esri/widgets/Search"
-        ], function(esriConfig, Map, MapView, FeatureLayer, Legend, Color, UniqueValueRenderer, Search) {
+        ], function(esriConfig, Map, MapView, FeatureLayer, Legend, Color, Expand, UniqueValueRenderer, Search) {
       
     
       esriConfig.apiKey = MY_API_KEY; 
