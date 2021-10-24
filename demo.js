@@ -44,6 +44,8 @@ require(["esri/config",
         popupTemplate: popupDumpsites,
         });
 	
+	Dumpsites.title = "Illegal Dumping Location";	
+	
 	// Waste Collection 
       
       const WasteCollection = new FeatureLayer({
